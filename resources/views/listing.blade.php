@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h2>{{$listing['title']}}</h2>
+@include('partials._search')
+<h1>{{$listing['title']}}</h1>
 <p>{{$listing['description']}}</p>
 @endsection
