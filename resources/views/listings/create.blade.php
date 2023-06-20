@@ -7,7 +7,7 @@
     <p class="mb-4">Post a car advertisement</p>
 </header>
 
-<form method="POST" action="/listings">
+<form method="POST" action="/listings" enctype="multipart/form-data">
     @csrf
     <div class="mb-6">
         <label
